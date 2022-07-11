@@ -3,8 +3,8 @@ import MenuTab from './MenuTab';
 
 export default function IndexPage() {
   return (
-    <div>
-      <MenuTab/>
+    <div className={styles.main}>
+      <MenuTab />
     </div>
   );
 }
