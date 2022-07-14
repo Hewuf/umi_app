@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './products.css';
+import styles from './weightRecords.css';
 
 export default function Page() {
   return (

@@ -7,7 +7,7 @@ import {
   DashboardOutlined, // 体重
   LockOutlined, // 锁
 } from '@ant-design/icons';
-import { router } from '../../utils/router';
+import { history } from 'umi';
 
 const items = [
   {
@@ -59,7 +59,7 @@ const items = [
 const MenuTab = () => {
   const handleClick = (e: any) => {
     const path = '/' + e.key;
-    router(path);
+    history.push(path);
     console.log('handleClick>>>', e.key, window.location);
   };
   return (

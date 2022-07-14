@@ -1,4 +1,6 @@
 
 .title {
   background: rgb(121, 242, 141);
+  position: relative;
+  left: 300px
 }
