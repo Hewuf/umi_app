@@ -1,6 +1,6 @@
 import { Children } from 'react';
 import styles from './index.less';
-import MenuTab from './MenuTab';
+import MenuTab from '../layouts/MenuTab';
 
 export default function IndexPage() {
   return (
